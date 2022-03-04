@@ -652,7 +652,7 @@ GameObject:
   - component: {fileID: 1465309457}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -762,7 +762,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d63689cf94dc2040a95cf8f35da906a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 50
+  Speed: 35
   BulletSpawnTransform: {fileID: 1450036256}
   Bullet: {fileID: 7352756920508317153, guid: 1c105b3090d3a264a99b3887d29b3e13, type: 3}
 --- !u!1 &1477592086
