@@ -22,7 +22,7 @@ public class PlayerController : MonoBehaviour
         _playerRb.AddForce(Vector3.right * Speed * Input.GetAxis("Horizontal"));
         _playerRb.AddForce(Vector3.forward * Speed * Input.GetAxis("Vertical"));
 
-        if (Input.GetKey(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             Instantiate(Bullet, BulletSpawnTransform.position, Bullet.transform.rotation);
         }
