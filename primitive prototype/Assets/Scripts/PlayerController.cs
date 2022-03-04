@@ -7,7 +7,7 @@ public class PlayerController : MonoBehaviour
     public float Speed;
     public Transform BulletSpawnTransform;
     public GameObject Bullet;
-
+   
 
     private Rigidbody _playerRb; //rb is rigidbody
     // Start is called before the first frame update
