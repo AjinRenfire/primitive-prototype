@@ -22,6 +22,7 @@ public class Enemy : MonoBehaviour
         Vector3 direction = (PlayerPosition.position - transform.position).normalized;
 
         _enemyRb.AddForce(direction * _speed);
+        
 
     }
 
@@ -41,4 +42,5 @@ public class Enemy : MonoBehaviour
             Destroy(collision.gameObject);
         }
     }
+   
 }
