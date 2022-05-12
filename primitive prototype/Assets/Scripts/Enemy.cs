@@ -6,7 +6,7 @@ public class Enemy : MonoBehaviour
 {
     public Transform PlayerPosition;
 
-    private float _speed = 4;
+    private float _speed = 40;
     private Rigidbody _enemyRb;
 
     // Start is called before the first frame update

@@ -9,13 +9,15 @@ public class CameraFollow : MonoBehaviour
     [SerializeField]private Vector3 _offsetPosition ;
 
 
-    
-   
+
+    private void Update()
+    {
+       
+    }
 
     void FixedUpdate()
     {
         transform.position = PlayerTransform.position + _offsetPosition;
-
         
     }
 
